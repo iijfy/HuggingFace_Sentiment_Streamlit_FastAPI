@@ -1,4 +1,4 @@
-✅ [결과물 클릭](STREAMLIT_URL_HERE)
+✅ [결과물 클릭](https://huggingfacesentimentappfastapi-y66azogspdp9gohrzrfxrr.streamlit.app/)
 ![예시 이미지](example.png)
 
 # 🎬 HuggingFace 감성분석 영화 리뷰 앱 (Streamlit + FastAPI)
