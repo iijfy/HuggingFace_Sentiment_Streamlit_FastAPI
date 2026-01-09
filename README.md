@@ -147,10 +147,10 @@ uvicorn app.main:app --host 0.0.0.0 --port $PORT
 ```
 
 - 배포가 완료되면 Render가 이런 형태의 URL을 줍니다:
-    - YOUR_RENDER_BACKEND_URL_HERE (예: https://xxxx.onrender.com)
+    - 예시: https://xxxx.onrender.com)
 
 - ✅ 배포 확인:
-    - YOUR_RENDER_BACKEND_URL_HERE/docs
+    - https://huggingface-sentiment-streamlit-fastapi.onrender.com/docs
     - Render 무료 플랜은 “슬립”이 있을 수 있어서 첫 요청이 느릴 수 있습니다.
 
 
@@ -164,7 +164,7 @@ uvicorn app.main:app --host 0.0.0.0 --port $PORT
 - Streamlit Cloud → App settings → Secrets에 아래를 그대로 붙여넣기:
 
 ```toml
-BACKEND_URL="YOUR_RENDER_BACKEND_URL_HERE"
+BACKEND_URL="https://huggingface-sentiment-streamlit-fastapi.onrender.com"
 ````
 
 3) 프론트 코드(환경변수/시크릿 자동 대응)
@@ -206,4 +206,6 @@ BACKEND_URL = st.secrets.get("BACKEND_URL", os.getenv("BACKEND_URL", "http://loc
 - 증상: NumPy 2.x 호환 경고로 torch import 시 경고/불안정
 - 해결: numpy<2로 핀 고정하여 안정화
 
+✅ 백엔드 Render URL: https://huggingface-sentiment-streamlit-fastapi.onrender.com
+✅ 프론트 Streamlit URL: https://huggingfacesentimentappfastapi-y66azogspdp9gohrzrfxrr.streamlit.app/
 
