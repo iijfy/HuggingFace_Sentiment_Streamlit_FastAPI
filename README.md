@@ -147,7 +147,7 @@ uvicorn app.main:app --host 0.0.0.0 --port $PORT
 ```
 
 - 배포가 완료되면 Render가 이런 형태의 URL을 줍니다:
-    - 예시: https://xxxx.onrender.com)
+    - 예시: https://xxxx.onrender.com
 
 - ✅ 배포 확인:
     - https://huggingface-sentiment-streamlit-fastapi.onrender.com/docs
