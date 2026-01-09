@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-multipart
+python-dotenv
+requests
+transformers
+torch
+
+# 서빙 최적화
+optimum[onnxruntime]
+onnxruntime
