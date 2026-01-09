@@ -146,12 +146,12 @@ pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port $PORT
 ```
 
-- 배포가 완료되면 Render가 이런 형태의 URL을 줍니다:
+- 배포가 완료되면 Render가 아래의 형태 URL을 출력해 줍니다.
     - 예시: https://xxxx.onrender.com
 
 - ✅ 배포 확인:
     - https://huggingface-sentiment-streamlit-fastapi.onrender.com/docs
-    - Render 무료 플랜은 “슬립”이 있을 수 있어서 첫 요청이 느릴 수 있습니다.
+    - Render 무료 플랜이라 슬립이 있을 수 있어서 첫 요청이 느릴 수 있습니다^^;
 
 
 
